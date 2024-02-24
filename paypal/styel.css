@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* navbar */
+.navbar-section{
+    width: 100%;
+    padding-left: 10px;
+    margin-left: 10px;
+    gap: 50PX;
+    background-color: #FFFFFF;
+}
+.navbar-section a{
+    color: #142C8E;
+    font-size: 15px;
+}
+.navbar-section a:hover{
+    color: blue;
+}
+.navbar-section ul li{
+    padding-left: 30px;
+}
+.left-side{
+    margin-left: 120px;
+}
+.navbar-section ul li button{
+    border-radius: 20px 20px 20px 20px;
+    border: 2px solid #142C8E;
+    width: 120px;
+    height: 40px; 
+    margin-top: -5px;
+}
+.navbar-section ul li button:hover{
+    background-color: #142C8E;
+    color: #fff;
+}
+.left{
+    margin-left: 30px;
+}
+/* section-01 */
+.section-1{
+    background-color: #142C8E;
+    height: 900px;
+    color: #fff;
+    /* font-size: 120px; */
+    /* text-align: center; */
+    width: 100%;
+}
+.top-h1{
+    font-size: 72px;
+    padding-left: 60px;
+    padding-top: 50px;
+}
+.top-p{
+    display: flex;
+    font-size: 25px;
+    padding-left:  60px; 
+    color: #54ABD3;
+}
+.top-p img{
+    height: 70px;
+    width: 120px;
+    margin-top: -10px;
+    color: #54ABD3;
+}
+.top-p2{
+    padding-top: 50px;
+    padding-left: 60px;
+}
+.barcode{
+    padding-left: 60px;
+    padding-top: 50px;
+}
+.input-main{
+    padding-top: 50px;
+}
+.input{
+    padding-left: 60px;
+    border-radius: 10px 10px 10px 10px;
+    height:60px
+}
+.input-main .btn-send{
+    /* padding-left: 60px; */
+    margin-left: 60px;
+    padding-top: 10px;
+    
+    width: 150px;
+    background-color: yellow;
+    border: none;
+}
+.input-p{
+    padding-left: 60px;
+    padding-top: 10px;
+}
+.hero-img{
+    padding-left: 700px;
+    margin-top: -310px;
+}
+    /* section-2 */
+    .section3{
+        display: flex;
+        color: #000;
+        font-size: 30px;
+        text-align: center;
+        justify-content: center;
+        padding-top: 30px;
+        border: 1px solid gray
+        ;
+    }
+    .hero-img img{
+        height: 10px;
+        width: 50px;
+    }
+    .section-4{
+        display: flex;
+        padding-top: 50px;
+        gap: 30px;
+
+    }
+    .section-4 img{
+        height: 400px;
+    }
+    .section-4 h2 {
+        color: black;
+        font-size: 50px;
+    }
+    .section-4 p{
+        color: #000;
+        justify-content: center;
+        font-size: 25px;
+    }
+    .sec-4link{
+        font-size: 20px;
+    }
+    .section6{
+        display: flex;
+    }
+    /* .section6 img{
+       height: 400px; 
+       width: 400px;
+    } */
